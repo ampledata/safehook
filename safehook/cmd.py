@@ -53,7 +53,10 @@ def sc_tracker():
     parser.add_argument(
         '-i', '--interval', help='interval', default=0
     )
-
+    parser.add_argument(
+        '-w', '--webhook', help='webhook'
+    )
+    
     opts = parser.parse_args()
 
     if opts.debug:
