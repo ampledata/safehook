@@ -18,7 +18,7 @@ __copyright__ = 'Copyright 2019 Greg Albrecht'
 import os
 import sys
 
-import setptools
+import setuptools
 
 
 def publish():
