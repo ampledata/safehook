@@ -31,7 +31,7 @@ def publish():
 publish()
 
 
-setup(
+setuptools.setup(
     name='safehook',
     version=__version__,
     description='Safecast Tracker for APRS.',
