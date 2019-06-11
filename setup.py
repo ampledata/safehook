@@ -50,7 +50,8 @@ setuptools.setup(
         'pygatt',
         'pynmea2 >= 1.4.2',
         'pyserial >= 2.7',
-        'requests'
+        'requests',
+        'pexpect'
     ],
     package_dir={'safehook': 'safehook'},
     zip_safe=False,
